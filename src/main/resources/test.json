@@ -1,0 +1,83 @@
+{
+  "locations": {
+    "1": {
+      "name": "LOC 1",
+      "lat": 43.336962,
+      "lng": -79.830394,
+      "routes": [
+        {
+          "toId": 2,
+          "distance": 1.5
+        }
+      ]
+    },
+    "2": {
+      "name": "loc 2",
+      "lat": 43.383554,
+      "lng": -79.833478,
+      "routes": [
+        {
+          "toId": 3,
+          "distance": 2.5
+        },
+        {
+          "toId": 1,
+          "distance": 1.5
+        }
+      ]
+    },
+    "3": {
+      "name": "lot 3",
+      "lat": 43.909797,
+      "lng": -79.124179,
+      "devcomment": "lot 3 are just placeholders for eventual interchanges.  Distances between need to  be fixed when these are built!",
+      "routes": [
+        {
+          "toId": 4,
+          "distance": 0,
+          "enter": false
+        },
+        {
+          "toId": 2,
+          "distance": 0,
+          "enter": false,
+          "exit": false
+        }
+      ]
+    },
+    "4": {
+      "name": "lot 4",
+      "lat": 43.916578,
+      "lng": -79.100486,
+      "routes": [
+        {
+          "toId": 6,
+          "distance": 3.5,
+          "startDate": "2013",
+          "exit": false
+        },
+        {
+          "toId": 3,
+          "distance": 1.5,
+          "exit": false,
+          "startDate": "1999-02"
+        }
+      ]
+    },
+    "6": {
+      "name": "lot 6",
+      "lat": 43.89095,
+      "lng": -79.185926,
+      "routes": [
+        {
+          "toId": 7,
+          "distance": 4.5
+        },
+        {
+          "toId": 4,
+          "distance": 3.5
+        }
+      ]
+    }
+  }
+}
